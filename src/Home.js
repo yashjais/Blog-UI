@@ -8,8 +8,7 @@ function Home(props) {
            <div style = {{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/b/b7/Storlien_ski_area.JPG)` , width : "100%", height : "800px", textAlign: "center" }} >
                <br></br>
                <br></br>
-               <br></br>
-               <br></br>
+               
                <br></br>
                <br></br>
                <br></br>
