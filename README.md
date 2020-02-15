@@ -1,47 +1,20 @@
-## Ticket Master
+## Blog-UI
 
-Ticket Master is a ticketing Application, which provides an interface through which a user can generate tickets. A ticket is generated when a customer have a complain about a certain service, then that ticket can be assigned to a employer based on the department and a priority can be given based on the urgency of the matter.
+Blog-UI is a Front-End centric project. Made using React-Redux, it is fast and elegant. It is fetching data from the JSONPlaceholder site. Designing tools used in this project are Reactstrap and bootstrap.
 
 ## Dependencies
 
-axios: "^0.19.2", // npm install --save axios
-bootstrap: "^4.4.1", // npm install bootstrap
-react: "^16.12.0", // npm i react
-react-dom: "^16.12.0", 
-react-redux: "^7.1.3", // npm install react-redux
-react-router-dom: "^5.1.2", // npm install --save react-router-dom
-react-scripts: "3.3.0", 
-reactstrap: "^8.4.1", // npm i reactstrap
-redux: "^4.0.5", // npm i redux
-redux-thunk: "^2.3.0" // npm i redux thunk
+1. axios: "^0.19.2", // npm install --save axios
+2. bootstrap: "^4.4.1", // npm install bootstrap
+3. react: "^16.12.0", // npm i react
+4. react-dom: "^16.12.0", 
+5. react-redux: "^7.1.3", // npm install react-redux
+6. react-router-dom: "^5.1.2", // npm install --save react-router-dom
+7. react-scripts: "3.3.0", 
+8. reactstrap: "^8.4.1", // npm i reactstrap
+9. redux: "^4.0.5", // npm i redux
+10. redux-thunk: "^2.3.0" // npm i redux thunk
 
-## Important Files and Folders
-
-home
-│   README.md   
-│
-└───src
-       actions      
-          comments
-          posts
-          users
-       components      
-          ListingPosts.js
-          ListingUsers.js
-          Post.js 
-          User.js
-          UserDetails.js
-       image
-       reducers
-          comments
-          posts
-          users
-       Store
-          configureStore
-       App.js
-       Home.js
-       index.js
-       
 ## Available Scripts
 
 In the project directory, you can run:
