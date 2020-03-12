@@ -6,7 +6,7 @@ export const getComments = (comments) => {
 
 export const startGetComments = () => {
     return (dispatch) => {
-        axios.get('http://jsonplaceholder.typicode.com/comments')
+        axios.get('https://jsonplaceholder.typicode.com/comments')
             .then(response => {
                 const comments = response.data
                 dispatch(getComments(comments))

@@ -6,7 +6,7 @@ export const getPosts = (posts) => {
 
 export const startGetPosts = () => {
     return (dispatch) => {
-        axios.get('http://jsonplaceholder.typicode.com/posts')
+        axios.get('https://jsonplaceholder.typicode.com/posts')
             .then(response => {
                 const posts = response.data
                 dispatch(getPosts(posts))

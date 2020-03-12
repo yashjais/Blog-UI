@@ -6,7 +6,7 @@ export const usersList = (users) => {
 
 export const startGetUsers = () => {
     return (dispatch) => {
-        axios.get("http://jsonplaceholder.typicode.com/users")
+        axios.get("https://jsonplaceholder.typicode.com/users")
         .then(response => {
             const users = response.data
             dispatch(usersList(users))
