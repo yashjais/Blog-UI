@@ -1,6 +1,6 @@
 ## Blog-UI
 
-Blog-UI is a Front-End centric project. Made using React-Redux, it is fast and elegant. It is fetching data from the JSONPlaceholder site. Designing tools used in this project are Reactstrap and bootstrap.
+Blog-UI is a Front-End centric project. Made using React-Redux, it is fast and elegant. It is fetching data from the JSONPlaceholder site. Designing tools used in this project are Reactstrap and bootstrap. This site is responsive.
 
 ## Dependencies
 
